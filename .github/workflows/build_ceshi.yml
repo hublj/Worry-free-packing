@@ -98,6 +98,13 @@ jobs:
         artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
         body: |
           默认IP：192.168.1.201 默认密码：password (WiFi密码同）
+          当前使用版本:【编译前的最后一次➦[主源码](https://github.com/coolsnowwolf/lede)更新记录】
+          自用精简包**，和F大本人集成的插件有**较大**差异。求稳用户推荐使用F大编译的➦[正式版本](https://github.com/breakings/OpenWrt/releases/tag/flippy_openwrt)。
+          此为**因变动较大，从60及其以下版本升级到61或更高版本建议**全新刷入**或者**不保留配置**进行升级。
+          常见问题及注意事项请参考恩山F大➦[最新帖](https://www.right.com.cn/forum/thread-4076037-1-1.html)
+          打包教程：可以观看➦[jc-nf那坨](https://youtu.be/7V-O-U2y_9Q)
+          ${{ env.useVersionInfo }}
+
     - name: Delete workflow runs
       uses: GitRML/delete-workflow-runs@main
       with:
