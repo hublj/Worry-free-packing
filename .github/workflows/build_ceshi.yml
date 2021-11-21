@@ -21,6 +21,8 @@ env:
   UPLOAD_COWTRANSFER: false
   RELEASE: true
   TZ: Asia/Shanghai
+  FILE_NAME: armv8_mini
+  PRODUCT_NAME: ARMv8_mini
 
 jobs:
   build:
