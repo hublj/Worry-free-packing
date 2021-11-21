@@ -44,7 +44,7 @@ jobs:
         sudo mkdir -p /workdir
         sudo chown $USER:$GROUPS /workdir
 
-    - name: Clone source code
+    - name: 磁盘空间
       working-directory: /workdir
       run: |
         df -hT $PWD
