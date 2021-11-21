@@ -4,7 +4,7 @@
 # Cron: min (0 - 59) / hour (0 - 23) / day of month (1 - 31) / month (1 - 12) / day of week (0 - 6)(Sunday - Saturday)
 #========================================================================================================================
 
-name: Use Releases file to Packaging
+name: Phicomm N1 S905d Lite
 
 on:
   repository_dispatch:
@@ -24,9 +24,9 @@ env:
   UPLOAD_RELEASE: true
   RECENT_LASTEST: 30
   TZ: Asia/Shanghai
-  FILE_NAME: armv8_mini
-  PRODUCT_NAME: ARMv8_mini
-
+  FILE_NAME: S905d_Lite
+  PRODUCT_NAME: S905d_Lite
+  
 jobs:
   build:
     runs-on: ubuntu-20.04
