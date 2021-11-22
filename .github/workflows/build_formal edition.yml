@@ -24,8 +24,8 @@ env:
   UPLOAD_RELEASE: true
   RECENT_LASTEST: 30
   TZ: Asia/Shanghai
-  FILE_NAME: S905d_Lite
-  PRODUCT_NAME: S905d_Lite
+  FILE_NAME: formal_Lite
+  PRODUCT_NAME: formal_Lite
   
 jobs:
   build:
