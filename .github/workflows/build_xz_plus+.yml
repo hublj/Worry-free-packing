@@ -24,8 +24,8 @@ env:
   UPLOAD_RELEASE: true
   RECENT_LASTEST: 30
   TZ: Asia/Shanghai
-  FILE_NAME: formal_Lite
-  PRODUCT_NAME: formal_Lite
+  FILE_NAME: openwrt-plus+
+  PRODUCT_NAME: openwrt-plus+
   
 jobs:
   build:
