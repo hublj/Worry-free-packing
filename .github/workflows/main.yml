@@ -63,7 +63,7 @@ jobs:
       if: (!cancelled())
       uses: hublj/flippy-openwrt-actions@main
       env:
-        OPENWRT_ARMVIRT: https://github.com/hublj/op/releases/download/openwrt_s9xxx_2021.11.16.0501/openwrt-armvirt-64-default-rootfs.tar.gz
+        OPENWRT_ARMVIRT: https://github.com/hublj/op/releases/download/openwrt_s9xxx_2021.11.23.0430/openwrt-armvirt-64-default-rootfs.tar.gz
         PACKAGE_SOC: s905d
         WHOAMI: hublj
         KERNEL_REPO_URL: https://github.com/breakings/OpenWrt/tree/main/opt/kernel
