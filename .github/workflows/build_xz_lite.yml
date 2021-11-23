@@ -24,8 +24,8 @@ env:
   UPLOAD_RELEASE: true
   RECENT_LASTEST: 30
   TZ: Asia/Shanghai
-  FILE_NAME: fx_Lite
-  PRODUCT_NAME: fx_Lite
+  FILE_NAME: opwenwrt-Lite_1
+  PRODUCT_NAME: opwenwrt-Lite_1
   
 jobs:
   build:
